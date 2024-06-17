@@ -1,0 +1,125 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fafbfb;
+    
+}
+header{
+    text-align: center;
+    background: #000000;
+   color: #fafbfb;
+   padding: 15px;
+   margin: 5px;
+
+}
+header nav ul li {
+    display: inline;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+}
+a:link{text-decoration: none;
+    color: #fafbfb;
+    }
+a:visited{
+    text-decoration: none;
+    color: #fafbfb;
+}
+a:active{
+    color: red;
+}
+a:hover{
+    color:aqua;
+}
+
+header nav ul li:hover{
+    color: aqua;
+    box-shadow: 0 0 40px rgb(235, 200, 200);
+    
+}
+main{
+   margin: 20px;
+    padding: 30px;
+    background:#d2c4c47c;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgb(77, 72, 72);
+}
+ main img{
+    width: 30px;
+    height: auto;
+    padding: 10px;
+    border-radius: 300px;
+ }
+ main h1{
+    margin-left: 20px;
+ }
+  
+table{
+  display: flex;
+}
+.phone{
+    display: inline;
+}
+
+
+main {
+    margin: 50px auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+/* for section*/
+#s1{
+    background-color: white;
+     padding: 20px; 
+     margin-right: 20px;
+     border-radius: 10px;
+     box-shadow:  0px 0px 10px rgb(77, 72, 72);
+}
+#s2{
+    color: #fafbfb;
+    background-color: rgb(6, 6, 6);
+     padding: 30px; 
+     margin-right: 20px;
+     border-radius: 10px;
+     box-shadow:  0px 0px 10px rgb(6, 172, 248);
+     
+}
+#s2 table{
+    border-collapse: separate; /* This ensures each cell has its own borders */
+            border-spacing: 10px
+}
+input{
+    background: #eee7e7;
+}
+textarea{
+    background: #eee7e7;
+}
+#submit{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding: 8px;
+border-radius: 30px;
+margin-top: 30px;
+}
+#submit:hover{
+    background-color: rgb(6, 172, 248);;
+}
+#f1{
+    text-align: center;
+    color: #fafbfb;
+    margin: 5px;
+    padding: 10px;
+    background: #000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#f2{
+    background-color: #000;
+}
+#f1 img{
+    width: 30px;
+    height: auto;
+    padding: 10px;
+    border-radius: 50px;
+}
+p1{
+    text-align: left;
+}
